@@ -19,7 +19,7 @@ version: '3.8'
 
 services:
     deploy:
-        image: tf-deployer:latest
+        image: tofu-deployer:latest
         volumes:
             - ./.envfile.json:/opt/deployer/.envfile.json
             - ./.envsecrets.json:/opt/deployer/.envsecrets.json
@@ -131,7 +131,7 @@ The following parameters are supported at the moment:
 
 ## Usage
 
-Before using OpenTofu Deployer, you need to build the `tf-deployer` image. Run the following command in the host machine:
+Before using OpenTofu Deployer, you need to build the `tofu-deployer` image. Run the following command in the host machine:
 
 ```bash
 make build
