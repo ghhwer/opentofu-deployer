@@ -153,5 +153,8 @@ The OpenTofu Deployer tool will read the configuration files and initiate the de
 # License
 This project is licensed under the MIT License.
 
+# Disclaimer
+This is test the image is quite large for production deployment, if you wish to use it in a production enviroment, you might want to adjust the Docker image, maybe remove poetry and pre-compile OpenTofu.
+
 # Contributions
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please create an issue or submit a pull request on the GitHub repository.
